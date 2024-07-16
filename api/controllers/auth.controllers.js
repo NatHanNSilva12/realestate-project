@@ -14,7 +14,17 @@ export const register = async (req, res)=>{
 
      //criar usuario em mongodb e salvar 
 
-     const newUser = await prisma
+     const newUser = await prisma.user.create({
+        data: {
+            username,
+            email,
+            password:hashedPassword,
+        }
+     })
+
+     console.log(newUser)
+
+     res.status(201).json({ message: "Usuario criado com sucesso"});
 }
 
 export const login = (req, res)=>{
