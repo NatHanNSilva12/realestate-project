@@ -1,6 +1,9 @@
+
+
+
 export const register = (req, res)=>{
      //db
-     console.log(req.body) 
+     const { username, email, password } = req.body; 
 }
 
 export const login = (req, res)=>{
