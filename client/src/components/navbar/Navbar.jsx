@@ -11,31 +11,30 @@ function Navbar() {
       <div className="left">
         <a href="/" className="logo">
           <img src="/logo.png" alt="" />
-          <span>LamaEstate</span>
+          <span>Rafael Sérgio Corretor</span>
         </a>
-        <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <a href="/">Inicio</a>
+        <a href="/">Sobre</a>
+        <a href="/">Contato</a>
+        <a href="/">Parceiros</a>
       </div>
       <div className="right">
         {user ? (
           <div className="user">
             <img
-              src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="https://media-gru2-2.cdn.whatsapp.net/v/t61.24694-24/427577191_995690192272639_2835870704666958633_n.jpg?ccb=11-4&oh=01_Q5AaIPUdM2fT8zl4FzaLBJLUSZh0CMC6t_W3Yy0AQcvzkOYr&oe=66A2516B&_nc_sid=e6ed6c&_nc_cat=107"
               alt=""
             />
-            <span>John Doe</span>
+            <span>Rafael Sérgio</span>
             <Link to="/profile" className="profile">
-              <div className="notification">3</div>
-              <span>Profile</span>
+              <span>Perfil</span>
             </Link>
           </div>
         ) : (
           <>
-            <a href="/">Sign in</a>
+            <a href="/">Entrar</a>
             <a href="/" className="register">
-              Sign up
+              Registrar
             </a>
           </>
         )}
@@ -47,12 +46,12 @@ function Navbar() {
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
-          <a href="/">Agents</a>
-          <a href="/">Sign in</a>
-          <a href="/">Sign up</a>
+          <a href="/">Inicio</a>
+          <a href="/">Sobre</a>
+          <a href="/">Contato</a>
+          <a href="/">Parceiros</a>
+          <a href="/">Entrar</a>
+          <a href="/">Registrar</a>
         </div>
       </div>
     </nav>

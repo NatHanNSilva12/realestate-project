@@ -6,13 +6,37 @@ function Chat() {
   return (
     <div className="chat">
       <div className="messages">
-        <h1>Messages</h1>
+        <h1>Mensagens</h1>
         <div className="message">
           <img
             src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
           />
-          <span>John Doe</span>
+          <span>Fernando WA</span>
+          <p>Excelente trabalho Rafa!</p>
+        </div>
+        <div className="message">
+          <img
+            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />
+          <span>Mauricio WA</span>
+          <p>Bora pra cima Rafa!</p>
+        </div>
+        <div className="message">
+          <img
+            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />
+          <span>Raquel WA</span>
+          <p>Documentação feita Rafa</p>
+        </div>
+        <div className="message">
+          <img
+            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />
+          <span>Cliente</span>
           <p>Lorem ipsum dolor sit amet...</p>
         </div>
         <div className="message">
@@ -20,7 +44,7 @@ function Chat() {
             src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
           />
-          <span>John Doe</span>
+          <span>Cliente</span>
           <p>Lorem ipsum dolor sit amet...</p>
         </div>
         <div className="message">
@@ -28,31 +52,7 @@ function Chat() {
             src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
           />
-          <span>John Doe</span>
-          <p>Lorem ipsum dolor sit amet...</p>
-        </div>
-        <div className="message">
-          <img
-            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt=""
-          />
-          <span>John Doe</span>
-          <p>Lorem ipsum dolor sit amet...</p>
-        </div>
-        <div className="message">
-          <img
-            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt=""
-          />
-          <span>John Doe</span>
-          <p>Lorem ipsum dolor sit amet...</p>
-        </div>
-        <div className="message">
-          <img
-            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt=""
-          />
-          <span>John Doe</span>
+          <span>Cliente</span>
           <p>Lorem ipsum dolor sit amet...</p>
         </div>
       </div>
@@ -64,55 +64,55 @@ function Chat() {
                 src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
               />
-              John Doe
+              Cliente
             </div>
             <span className="close" onClick={()=>setChat(null)}>X</span>
           </div>
           <div className="center">
             <div className="chatMessage">
               <p>Lorem ipsum dolor sit amet</p>
-              <span>1 hour ago</span>
+              <span>1 hora atrás</span>
             </div>
             <div className="chatMessage own">
               <p>Lorem ipsum dolor sit amet</p>
-              <span>1 hour ago</span>
+              <span>1 hora atrás</span>
             </div>
             <div className="chatMessage">
               <p>Lorem ipsum dolor sit amet</p>
-              <span>1 hour ago</span>
+              <span>1 hora atrás</span>
             </div>
             <div className="chatMessage own">
               <p>Lorem ipsum dolor sit amet</p>
-              <span>1 hour ago</span>
+              <span>1 hora atrás</span>
             </div>
             <div className="chatMessage">
               <p>Lorem ipsum dolor sit amet</p>
-              <span>1 hour ago</span>
+              <span>1 hora atrás</span>
             </div>
             <div className="chatMessage own">
               <p>Lorem ipsum dolor sit amet</p>
-              <span>1 hour ago</span>
+              <span>1 hora atrás</span>
             </div>
             <div className="chatMessage">
               <p>Lorem ipsum dolor sit amet</p>
-              <span>1 hour ago</span>
+              <span>1 hora atrás</span>
             </div>
             <div className="chatMessage own">
               <p>Lorem ipsum dolor sit amet</p>
-              <span>1 hour ago</span>
+              <span>1 hora atrás</span>
             </div>
             <div className="chatMessage">
               <p>Lorem ipsum dolor sit amet</p>
-              <span>1 hour ago</span>
+              <span>1 hora atrás</span>
             </div>
             <div className="chatMessage own">
               <p>Lorem ipsum dolor sit amet</p>
-              <span>1 hour ago</span>
+              <span>1 hora atrás</span>
             </div>
           </div>
           <div className="bottom">
             <textarea></textarea>
-            <button>Send</button>
+            <button>Enviar</button>
           </div>
         </div>
       )}
