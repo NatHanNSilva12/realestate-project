@@ -26,7 +26,7 @@ function Login() {
         password,
       });
 
-      navigate("/");
+      navigate("/homePage");
     } catch (err) {
       setError(err.response.data.message);
     }
