@@ -10,7 +10,7 @@ function Login() {
           <input name="username" type="text" placeholder="Nome do usuário" />
           <input name="password" type="password" placeholder="Senha" />
           <button>Entrar</button>
-          <Link to="/register">{"Don't"} Já possui uma conta?</Link>
+          <Link to="/register">{"Não"} possui uma conta?</Link>
         </form>
       </div>
       <div className="imgContainer">
