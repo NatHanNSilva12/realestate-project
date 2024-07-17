@@ -8,31 +8,31 @@ function ProfilePage() {
       <div className="details">
         <div className="wrapper">
           <div className="title">
-            <h1>User Information</h1>
-            <button>Update Profile</button>
+            <h1>Informação do usuário</h1>
+            <button>Atualizar perfil</button>
           </div>
           <div className="info">
             <span>
-              Avatar:
+              Foto:
               <img
-                src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://media-gru2-2.cdn.whatsapp.net/v/t61.24694-24/427577191_995690192272639_2835870704666958633_n.jpg?ccb=11-4&oh=01_Q5AaIPUdM2fT8zl4FzaLBJLUSZh0CMC6t_W3Yy0AQcvzkOYr&oe=66A2516B&_nc_sid=e6ed6c&_nc_cat=107"
                 alt=""
               />
             </span>
             <span>
-              Username: <b>John Doe</b>
+              Nome: <b>Rafael Sérgio</b>
             </span>
             <span>
-              E-mail: <b>john@gmail.com</b>
+              E-mail: <b>rafaelsergio@wabrokersimoveis.com.br</b>
             </span>
           </div>
           <div className="title">
-            <h1>My List</h1>
-            <button>Create New Post</button>
+            <h1>Minha lista</h1>
+            <button>Adicionar novo imóvel</button>
           </div>
           <List />
           <div className="title">
-            <h1>Saved List</h1>
+            <h1>Listas salvas</h1>
           </div>
           <List />
         </div>

@@ -5,9 +5,9 @@ function ProfileUpdatePage() {
     <div className="profileUpdatePage">
       <div className="formContainer">
         <form>
-          <h1>Update Profile</h1>
+          <h1>Atualizar perfil</h1>
           <div className="item">
-            <label htmlFor="username">Username</label>
+            <label htmlFor="username">Nome do usuário</label>
             <input
               id="username"
               name="username"
@@ -23,10 +23,10 @@ function ProfileUpdatePage() {
             />
           </div>
           <div className="item">
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password">Senha</label>
             <input id="password" name="password" type="password" />
           </div>
-          <button>Update</button>
+          <button>Atualizar</button>
         </form>
       </div>
       <div className="sideContainer">

@@ -6,11 +6,11 @@ function Login() {
     <div className="login">
       <div className="formContainer">
         <form>
-          <h1>Welcome back</h1>
-          <input name="username" type="text" placeholder="Username" />
-          <input name="password" type="password" placeholder="Password" />
-          <button>Login</button>
-          <Link to="/register">{"Don't"} you have an account?</Link>
+          <h1>Bem vindo de volta</h1>
+          <input name="username" type="text" placeholder="Nome do usuário" />
+          <input name="password" type="password" placeholder="Senha" />
+          <button>Entrar</button>
+          <Link to="/register">{"Don't"} Já possui uma conta?</Link>
         </form>
       </div>
       <div className="imgContainer">

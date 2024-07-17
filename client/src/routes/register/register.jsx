@@ -6,12 +6,12 @@ function Register() {
     <div className="register">
       <div className="formContainer">
         <form>
-          <h1>Create an Account</h1>
-          <input name="username" type="text" placeholder="Username" />
+          <h1>Criar uma conta</h1>
+          <input name="username" type="text" placeholder="Nome do usuário" />
           <input name="email" type="text" placeholder="Email" />
-          <input name="password" type="password" placeholder="Password" />
-          <button >Register</button>
-          <Link to="/login">Do you have an account?</Link>
+          <input name="password" type="password" placeholder="Senha" />
+          <button >Registrar</button>
+          <Link to="/login">Já possui uma conta?</Link>
         </form>
       </div>
       <div className="imgContainer">

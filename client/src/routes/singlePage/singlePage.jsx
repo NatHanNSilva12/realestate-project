@@ -30,81 +30,81 @@ function SinglePage() {
       </div>
       <div className="features">
         <div className="wrapper">
-          <p className="title">General</p>
+          <p className="title">Geral</p>
           <div className="listVertical">
             <div className="feature">
               <img src="/utility.png" alt="" />
               <div className="featureText">
-                <span>Utilities</span>
-                <p>Renter is responsible</p>
+                <span>Serviços de utilidade pública</span>
+                <p>O locatário é responsável</p>
               </div>
             </div>
             <div className="feature">
               <img src="/pet.png" alt="" />
               <div className="featureText">
-                <span>Pet Policy</span>
-                <p>Pets Allowed</p>
+                <span>Política para animais de estimação</span>
+                <p>Animais de estimação permitidos</p>
               </div>
             </div>
             <div className="feature">
               <img src="/fee.png" alt="" />
               <div className="featureText">
-                <span>Property Fees</span>
-                <p>Must have 3x the rent in total household income</p>
+                <span>Taxas de propriedade</span>
+                <p>Deve ter 3x o aluguel na renda familiar total</p>
               </div>
             </div>
           </div>
-          <p className="title">Sizes</p>
+          <p className="title">Tamanho</p>
           <div className="sizes">
             <div className="size">
               <img src="/size.png" alt="" />
-              <span>80 sqft</span>
+              <span>80 m²</span>
             </div>
             <div className="size">
               <img src="/bed.png" alt="" />
-              <span>2 beds</span>
+              <span>2 quartos</span>
             </div>
             <div className="size">
               <img src="/bath.png" alt="" />
-              <span>1 bathroom</span>
+              <span>1 banheiro</span>
             </div>
           </div>
-          <p className="title">Nearby Places</p>
+          <p className="title">Locais próximos</p>
           <div className="listHorizontal">
             <div className="feature">
               <img src="/school.png" alt="" />
               <div className="featureText">
-                <span>School</span>
-                <p>250m away</p>
+                <span>Escola</span>
+                <p>250m de distancia</p>
               </div>
             </div>
             <div className="feature">
               <img src="/pet.png" alt="" />
               <div className="featureText">
-                <span>Bus Stop</span>
-                <p>100m away</p>
+                <span>Ponto de onibus</span>
+                <p>100m de distancia</p>
               </div>
             </div>
             <div className="feature">
               <img src="/fee.png" alt="" />
               <div className="featureText">
-                <span>Restaurant</span>
-                <p>200m away</p>
+                <span>Restaurantes e Mercados</span>
+                <p>200m de distancia</p>
               </div>
             </div>
           </div>
-          <p className="title">Location</p>
+          <p className="title">Localização</p>
           <div className="mapContainer">
             <Map items={[singlePostData]} />
           </div>
           <div className="buttons">
             <button>
               <img src="/chat.png" alt="" />
-              Send a Message
+              Enviar uma mensagem
             </button>
             <button>
               <img src="/save.png" alt="" />
-              Save the Place
+              Salvar o imóvel
             </button>
           </div>
         </div>

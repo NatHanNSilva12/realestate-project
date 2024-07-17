@@ -4,34 +4,34 @@ function NewPostPage() {
   return (
     <div className="newPostPage">
       <div className="formContainer">
-        <h1>Add New Post</h1>
+        <h1>Adicionar novo imóvel</h1>
         <div className="wrapper">
           <form>
             <div className="item">
-              <label htmlFor="title">Title</label>
+              <label htmlFor="title">Titulo</label>
               <input id="title" name="title" type="text" />
             </div>
             <div className="item">
-              <label htmlFor="price">Price</label>
+              <label htmlFor="price">Valor</label>
               <input id="price" name="price" type="number" />
             </div>
             <div className="item">
-              <label htmlFor="address">Address</label>
+              <label htmlFor="address">Endereço</label>
               <input id="address" name="address" type="text" />
             </div>
             <div className="item description">
-              <label htmlFor="desc">Description</label>
+              <label htmlFor="desc">Descrição</label>
             </div>
             <div className="item">
-              <label htmlFor="city">City</label>
+              <label htmlFor="city">Cidade</label>
               <input id="city" name="city" type="text" />
             </div>
             <div className="item">
-              <label htmlFor="bedroom">Bedroom Number</label>
+              <label htmlFor="bedroom">Quantidade de quartos</label>
               <input min={1} id="bedroom" name="bedroom" type="number" />
             </div>
             <div className="item">
-              <label htmlFor="bathroom">Bathroom Number</label>
+              <label htmlFor="bathroom">Quantidade de banheiros</label>
               <input min={1} id="bathroom" name="bathroom" type="number" />
             </div>
             <div className="item">
@@ -43,64 +43,64 @@ function NewPostPage() {
               <input id="longitude" name="longitude" type="text" />
             </div>
             <div className="item">
-              <label htmlFor="type">Type</label>
+              <label htmlFor="type">Tipo</label>
               <select name="type">
                 <option value="rent" defaultChecked>
-                  Rent
+                  Locação
                 </option>
-                <option value="buy">Buy</option>
+                <option value="buy">Compra</option>
               </select>
             </div>
             <div className="item">
-              <label htmlFor="type">Property</label>
+              <label htmlFor="type">Propriedade</label>
               <select name="property">
-                <option value="apartment">Apartment</option>
-                <option value="house">House</option>
-                <option value="condo">Condo</option>
-                <option value="land">Land</option>
+                <option value="apartment">Apartamento</option>
+                <option value="house">Casa</option>
+                <option value="condo">Condominio</option>
+                <option value="land">Chácara/Sitio</option>
               </select>
             </div>
             <div className="item">
-              <label htmlFor="utilities">Utilities Policy</label>
+              <label htmlFor="utilities">Política de Serviços Públicos</label>
               <select name="utilities">
-                <option value="owner">Owner is responsible</option>
-                <option value="tenant">Tenant is responsible</option>
-                <option value="shared">Shared</option>
+                <option value="owner">Proprietário é responsável</option>
+                <option value="tenant">O inquilino é responsável</option>
+                <option value="shared">Compartilhado</option>
               </select>
             </div>
             <div className="item">
-              <label htmlFor="pet">Pet Policy</label>
+              <label htmlFor="pet">Política para animais de estimação</label>
               <select name="pet">
-                <option value="allowed">Allowed</option>
-                <option value="not-allowed">Not Allowed</option>
+                <option value="allowed">Permitido</option>
+                <option value="not-allowed">Não é permitido</option>
               </select>
             </div>
             <div className="item">
-              <label htmlFor="income">Income Policy</label>
+              <label htmlFor="income">Política de Renda</label>
               <input
                 id="income"
                 name="income"
                 type="text"
-                placeholder="Income Policy"
+                placeholder="Política de Renda"
               />
             </div>
             <div className="item">
-              <label htmlFor="size">Total Size (sqft)</label>
+              <label htmlFor="size">Tamanho total (m²)</label>
               <input min={0} id="size" name="size" type="number" />
             </div>
             <div className="item">
-              <label htmlFor="school">School</label>
+              <label htmlFor="school">Escolas</label>
               <input min={0} id="school" name="school" type="number" />
             </div>
             <div className="item">
-              <label htmlFor="bus">bus</label>
+              <label htmlFor="bus">Onibus</label>
               <input min={0} id="bus" name="bus" type="number" />
             </div>
             <div className="item">
-              <label htmlFor="restaurant">Restaurant</label>
+              <label htmlFor="restaurant">Restaurantes</label>
               <input min={0} id="restaurant" name="restaurant" type="number" />
             </div>
-            <button className="sendButton">Add</button>
+            <button className="sendButton">Adicionar</button>
           </form>
         </div>
       </div>
